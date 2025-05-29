@@ -18,7 +18,8 @@ La propuesta busca comunicar de forma efectiva mediante el diseño visual, resal
 
 | Fuente                           | Tipo de referencia        | Enlace                                                                 |
 |--------------------------------- |---------------------------- |------------------------------------------------------------------------|
-| **Reuters Graphics**            | Visualizaciones interactivas | [https://www.reuters.com/graphics/USA-HEALTH/MEASLES/lbvgwxrwbvq/)              |
+| **Reuters Graphics**            | Visualizaciones interactivas | ![Collage años 80](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Example.jpg/800px-Example.jpg)
+           |
 | **Reuters Graphics**            | Utilización del collage      | [https://www.reuters.com/graphics/USA-METBALL/FASHION/zjvqagymdvx/) |
 | **SCMP Infographics**           | Estilo editorial moderno     | [https://www.scmp.com/news/people-culture/trending-china/article/3261954/indonesian-woman-24-surprised-find-she-was-previous-wedding-husband-62-when-she-was-9?module=spotlight&pgtype=section             |
 | **Freepik**                     | Inspiración estética         | https://www.freepik.com/search?format=search&last_filter=query&last_value=70s+Era&query=70s+EraEnlaces a un sitio externo.|
