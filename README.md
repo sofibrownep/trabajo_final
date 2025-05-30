@@ -15,15 +15,16 @@ La propuesta busca comunicar de forma efectiva mediante el diseño visual, resal
 - **[Wikipedia]**: https://es.wikipedia.org/wiki/Anexo:%C3%93scar_a_la_mejor_pel%C3%ADculaEnlaces a un sitio externo.
 
 ## Referencias de diseño e inspiración
+### 📚 Tabla de referencias visuales y conceptuales
 
-| Fuente                           | Tipo de referencia        | Enlace                                                                 |
-|--------------------------------- |---------------------------- |------------------------------------------------------------------------|
-| **Reuters Graphics**            | Visualizaciones interactivas | 
-           |
-| **Reuters Graphics**            | Utilización del collage      | [https://www.reuters.com/graphics/USA-METBALL/FASHION/zjvqagymdvx/) |
-| **SCMP Infographics**           | Estilo editorial moderno     | [https://www.scmp.com/news/people-culture/trending-china/article/3261954/indonesian-woman-24-surprised-find-she-was-previous-wedding-husband-62-when-she-was-9?module=spotlight&pgtype=section             |
-| **Freepik**                     | Inspiración estética         | https://www.freepik.com/search?format=search&last_filter=query&last_value=70s+Era&query=70s+EraEnlaces a un sitio externo.|
-| **Freepik**                     | Inspiración estética         | https://www.freepik.com/search?format=search&last_filter=query&last_value=90s+Era&query=90s+EraEnlaces a un sitio externo. |
+| **Fuente**            | **Tipo de referencia**        | **Enlace**                                                                                                                | **Aspectos positivos**                                                                 | **Aspectos negativos**                                              |
+|-----------------------|-------------------------------|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| **Reuters Graphics**  | Visualizaciones interactivas  | [Ver enlace](https://www.reuters.com/graphics/USA-HEALTH/MEASLES/lbvgwxrwbvq/)                                           | - Interactividad clara<br>- Codificación visual efectiva<br>- Línea de tiempo útil      | - Carencia de contexto cultural<br>- Poco evocativa estéticamente   |
+| **Reuters Graphics**  | Uso de collage editorial      | [Ver enlace](https://www.reuters.com/graphics/USA-METBALL/FASHION/zjvqagymdvx/)                                          | - Enfoque narrativo<br>- Diseño visual llamativo<br>- Uso de íconos culturales          | - No es interactivo<br>- Carga visual puede distraer del contenido  |
+| **SCMP Infographics** | Estilo editorial moderno      | [Ver enlace](https://www.scmp.com/news/people-culture/trending-china/article/3261954/)                                   | - Diseño limpio<br>- Formato periodístico claro<br>- Atractivo visualmente              | - Texto muy denso<br>- Poca jerarquía visual                        |
+| **Freepik (70s)**     | Inspiración estética (década) | [Ver enlace](https://www.freepik.com/search?format=search&last_filter=query&last_value=70s+Era&query=70s+Era)           | - Gran variedad de recursos<br>- Representación estética útil por década                | - No contextualiza<br>- Riesgo de cliché visual                     |
+| **Freepik (90s)**     | Inspiración estética (década) | [Ver enlace](https://www.freepik.com/search?format=search&last_filter=query&last_value=90s+Era&query=90s+Era)           | - Imágenes vibrantes y representativas<br>- Rápido acceso a referentes visuales         | - Estética sobrecargada<br>- No es una fuente editorial validada    |
+
 
 ## 📌 Recursos útiles
 
