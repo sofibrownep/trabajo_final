@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: #111;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 5rem;
+  font-weight: 100;
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #444;
+  opacity: 0.2;
+  line-height: 1;
+  letter-spacing: -1px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  max-width: 700px;
+  margin: 0 auto 1.5rem auto;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  color: #333;
+  text-align: left;
+}
+
+.decada {
+  max-width: 700px;
+  margin: 4rem auto 2rem auto;
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: visible;
+  padding: 2rem 1.5rem 1rem;
+  position: relative;
+}
+
+.decada:hover {
+  transform: none;
+}
+
+.decada img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+canvas {
+  display: block;
+  margin: 3rem auto;
+  max-width: 90%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.8rem;
+  color: #999;
+}
+
+
+.decada.de1920 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  max-width: 1000px;
+  margin: 4rem auto 2rem auto;
+  padding: 2rem 1.5rem 1rem;
+}
+
+.decada.de1920 h3 {
+  flex-shrink: 0;
+  margin: 0;
+  font-size: 6rem;
+  opacity: 0.3;
+  color: #222;
+  line-height: 1;
+}
+
+.decada.de1920 .moodboard {
+  position: relative;
+  width: 500px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.moodboard {
+  position: relative;
+  width: 80%;
+  margin: 0 auto 0.5rem;
+  z-index: 0;
+}
+
+.mood-img {
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+.mood-img.main {
+  width: 70%;
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.mood-img.overlay {
+  position: absolute;
+  opacity: 0.95;
+  z-index: 2;
+}
+
+.mood-img.left {
+  left: 0%;
+  top: -5%;
+  transform: rotate(-8deg);
+  width: 30%;
+}
+
+.mood-img.right {
+  right: -8%;
+  top: 20%;
+  transform: rotate(6deg);
+  width: 65%;
+}
+
+.moodboard .detalle {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #333;
+  max-width: 100%;
+}
+
+.etiqueta-decada {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  margin: 0;
+  line-height: 0.9;
+}
+
+.titulo-arriba {
+  font-size: 4rem;
+  font-weight: 100;
+  color: #888;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+.anio {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #222;
+  opacity: 0.3;
+}
+
+.titulo-estilo-galeria {
+  text-align: left;
+  padding: 10rem 2rem 1rem;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.titulo-estilo-galeria .linea-superior {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #666;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+}
+
+.titulo-estilo-galeria .linea-media {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #444;
+}
+
+.titulo-estilo-galeria .linea-grande {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  line-height: 1;
+}
+
+.titulo-estilo-galeria .linea-inferior {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #444;
+}
+
+.bloque-intro {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  padding: 0;
+}
+
+.titulo-estilo-galeria {
+  text-align: left;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.titulo-estilo-galeria span {
+  display: block;
+}
+
+.bloque-intro p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.decada.de1930 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  max-width: 1000px;
+  margin: 4rem auto 2rem auto;
+  padding: 2rem 1.5rem 1rem;
+}
+
+.decada.de1930 .etiqueta-decada {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  margin: 0;
+  line-height: 0.9;
+}
+
+.decada.de1930 .titulo-arriba {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #888;
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+
+.decada.de1930 .anio {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #222;
+  opacity: 0.3;
+}
+
+.decada.de1930 .moodboard {
+  position: relative;
+  width: 500px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.decada.de1930 .mood-img.main {
+  width: 70%;
+  max-width: 70%;
+  position: relative;
+  z-index: 1;
+}
+
+.decada.de1930 .mood-img.overlay {
+  position: absolute;
+  opacity: 0.95;
+  z-index: 2;
+}
+
+.decada.de1930 .mood-img.left {
+  left: -15%;
+  top: -50%;
+  transform: rotate(-8deg);
+  width: 80%;
+}
+
+.decada.de1930 .mood-img.right {
+  right: -5%;
+  top: -20%;
+  transform: rotate(6deg);
+  width: 100%;
+}
+
+.decada.de1930 .detalle {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #333;
+  max-width: 100%;
+}
