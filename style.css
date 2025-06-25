@@ -106,7 +106,7 @@ p {
 .anio {
   font-size: 14rem; 
   font-weight: 700;
-  color: #A51C30;
+  color: #BD6162;
   opacity: 1;     
   position: relative;
   top: -2rem;      
@@ -347,19 +347,6 @@ canvas#scatterChart {
   color: #A51C30;
 }
 
-.hero-titulo .linea-1 {
-  font-size: 28px;
-  top: 50%;
-  left: 50%;
-  font-weight: 700;
-  display: block;
-  color: #EBDFD3; 
-  margin-bottom: 10px;
-  text-align: center;
-  font-family: 'Work Sans', sans-serif;
-
-}
-
 
 .hero-titulo .linea-2 {
   font-size: 120px;
@@ -375,16 +362,6 @@ canvas#scatterChart {
   font-weight: 600;
   display: block;
   letter-spacing: 2px;
-  text-align: center;
-}
-
-.hero-titulo .linea-4 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-top: 10px;
-  display: block;
-  color: #EBDFD3; 
-  font-family: 'Work Sans', sans-serif;
   text-align: center;
 }
 
