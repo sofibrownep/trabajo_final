@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #EBDFD3;
+  color: #EBDFD3;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+
+
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: #111;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 5rem;
+  font-weight: 100;
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #444;
+  opacity: 0.2;
+  line-height: 1;
+  letter-spacing: -1px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  max-width: 700px;
+  margin: 0 auto 1.5rem auto;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  color: #A51C30;
+  text-align: left;
+}
+
+
+.bloque-intro {
+  max-width: 200px;
+  margin: 0rem auto 2rem auto;
+  padding: 0;
+  margin-top: 8rem;
+}
+
+
+
+.decada {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  margin: 6rem auto;
+  max-width: 1000px;
+  padding: 2rem 1.5rem;
+}
+
+.decada:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+
+.etiqueta-decada {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: right;
+  margin: 0;
+  line-height: 0.9;
+}
+
+.titulo-arriba {
+  font-size: 5rem;
+  font-weight: 300;
+  color: #A51C30;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+.anio {
+  font-size: 14rem; 
+  font-weight: 700;
+  color: #A51C30;
+  opacity: 1;     
+  position: relative;
+  top: -2rem;      
+}
+
+
+
+.moodboard {
+  position: relative;
+  width: 500px;
+  height: 350px; 
+  margin: 0 auto;
+}
+
+.mood-img {
+  position: absolute;
+  object-fit: cover;
+  border-radius: 0px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: pointer; 
+  transition: transform 0.2s ease, z-index 0.2s ease;
+}
+
+.mood-img.main {
+  width: 80%;
+  top: 20%;
+  left: 20%;
+  z-index: 3;
+}
+
+
+.mood-img.left {
+  width: 50%;
+  bottom: 40%;  
+  top: 10%;
+  left: -10%;
+  transform: none;
+  z-index: 1;
+}
+
+
+.mood-img.right {
+  width: 50%;
+  top: 0;
+  right: -10%;
+  transform: none;
+  z-index: 1;
+}
+
+.mood-img.abajo-superpuesta {
+  width: 50%;             
+  bottom: -30%;           
+  left: 15%;               
+  transform: none;
+  z-index: 3;
+  position: absolute;
+}
+
+.mood-img:hover {
+  z-index: 10;
+  transform: scale(1.05) rotate(0deg);
+}
+
+.detalle {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #333;
+  max-width: 100%;
+}
+
+
+table {
+  margin: 4rem auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 900px;
+  font-size: 1rem;
+  background-color: white;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+}
+
+canvas#scatterChart {
+  display: block;
+  margin: 4rem auto;
+  max-width: 95%;
+  border: none;
+}
+
+.intro-dos-columnas {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: stretch; 
+}
+
+
+.fondo-intro {
+  background-color: #A51C30;
+  padding: 4vh 0;
+  display: flex;
+  justify-content: left;
+  width: 100vw;        
+  margin: 5rem 0 0 0; 
+}
+
+
+
+.parrafo-intro {
+  max-width: 500px;
+  margin: 10 rem;
+  left: -30%;
+  padding: 0 1rem;
+  font-size: 12px;
+  font-weight: 200;
+  color: white;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.mood-interactivo {
+  position: relative;
+  cursor: pointer;
+}
+
+.mood-interactivo::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 110%; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+  font-size: 0.9rem;
+  z-index: 10;
+}
+
+.mood-interactivo:hover::after {
+  opacity: 1;
+}
+
+canvas#scatterChart {
+  display: block;
+  max-width: 100%;
+  width: 1000px;
+  height: 600px;
+  margin: 5rem auto;
+}
+
+
+
+:root {
+  --scatter-color: #B7232F; 
+  --scatter-bg: #fff;
+  --scatter-border: #f4f4f4;
+  --scatter-tooltip-bg: #222;
+  --scatter-tooltip-text: #fff;
+  --scatter-tooltip-subtext: #ddd;
+}
+
+.titulo-scatter {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 6rem;
+  color: #A51C30;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+#radial-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  margin-top: -50rem; /* Sube el gráfico */
+}
+
+#radial-chart svg {
+  max-width: 90vw;
+  height: auto;
+}
+
+.tooltip {
+  position: absolute;
+  background: #A51C30;        
+  color: #ffffff;             
+  border: none;
+  border-radius: 0;           
+  padding: 6px 10px;         
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;           
+  pointer-events: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 10;
+}
+
+
+
+.hero {
+  background-color: #EBDFD3;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.hero-content {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  border-radius: 0;
+}
+
+.hero-titulo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'PT Serif', serif;
+  text-align: center;
+  color: #A51C30;
+}
+
+.hero-titulo .linea-1 {
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  font-weight: 300;
+  display: block;
+  color: #EBDFD3; 
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+
+}
+
+
+.hero-titulo .linea-2 {
+  font-size: 120px;
+  font-weight: 600;
+  display: block;
+  letter-spacing: 2px;
+  text-align: center;
+   color: #A51C30; 
+}
+
+.hero-titulo .linea-3 {
+  font-size: 80px;
+  font-weight: 600;
+  display: block;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.hero-titulo .linea-4 {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 10px;
+  display: block;
+  color: #EBDFD3; 
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+}
+
+
+.franja-credito {
+  background-color: #A51C30;
+  padding: 1rem 0;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.firma-credito {
+  font-family: 'Work sans', sans-serif;
+  font-size: 12px;
+  color: #EBDFD3;
+  letter-spacing: 1px;
+  font-weight: 400;
+   text-align: center;
+}
+}
+
+
+
