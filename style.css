@@ -289,7 +289,7 @@ canvas#scatterChart {
   justify-content: center;
   align-items: center;
   padding: 2rem 0;
-  margin-top: -50rem; /* Sube el gráfico */
+  margin-top: -50rem; 
 }
 
 #radial-chart svg {
